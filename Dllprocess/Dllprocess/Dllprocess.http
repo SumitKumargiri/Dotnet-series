@@ -1,0 +1,6 @@
+@Dllprocess_HostAddress = http://localhost:5078
+
+GET {{Dllprocess_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

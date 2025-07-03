@@ -1,0 +1,338 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="position-relative w-100 custom-banner m-0 p-0">
+    <img class="homeimage w-100 m-0 p-0" src="~/images/bannernew.png" alt="Alternate Text" />
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+        <h1 class="text-uppercase fw-bolder text-primary single-line">A Family of Hospital for Your Family</h1>
+        <p class="fw-bolder text-black custom-text">Happiness is the highest form of health</p>
+    </div>
+</div>
+
+<div>
+    @Html.Partial("About")
+</div>
+
+
+@* +++++++++++++ service Card ++++++++++++++++++++++++ *@
+
+<div class="container mt-5 mb-5">
+    <h1 class="text-center text-info" style="font-size: 48px; font-family: 'Times New Roman'; font-weight: bold;">Our Services</h1>
+    <h2 class="text-center mb-5" style="font-size: 32px; font-family: 'Times New Roman'; font-weight: bold;">Explore Our Services</h2>
+    <div class="row">
+        @*  +++++++++++ card 1 +++++++++++++++ *@
+        <div class="col-md-4 mb-4">
+            <div class="card position-relative service-card">
+                <img src="~/Images/dental.jpg" class="dentalimage card-img-top" alt="Image 1">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Dental</h5>
+                    <p class="card-text">In our dental department, we provide services for healthy smiles.</p>
+                    <div class="read-more">
+                        <button class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*  +++++++++++ card 2 +++++++++++++++ *@
+        <div class="col-md-4 mb-4">
+            <div class="card position-relative service-card">
+                <img src="~/Images/neurologie.jpg" class="neurologyimage card-img-top" alt="Image 2">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Neurologie</h5>
+                    <p class="card-text">To protect brain health and transform lives, we are here.</p>
+                    <div class="read-more">
+                        <button class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*  +++++++++++ card 3 +++++++++++++++ *@
+        <div class="col-md-4 mb-4">
+            <div class="card position-relative service-card">
+                <img src="~/Images/cardio.jpg" class="cardioimage card-img-top" alt="Image 3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cardio</h5>
+                    <p class="card-text">We are here to enhance the rhythm of your heart. Transforming your life.</p>
+                    <div class="read-more">
+                        <button class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*  +++++++++++ card 4 +++++++++++++++ *@
+        <div class="col-md-4 mb-4">
+            <div class="card position-relative service-card">
+                <img src="~/Images/orthopedy.jpg" class="dentalimage card-img-top" alt="orthopedyimage">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Dental</h5>
+                    <p class="card-text">We enhance your quality of life by restoring your freedom of movement.</p>
+                    <div class="read-more">
+                        <button class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*  +++++++++++ card 5 +++++++++++++++ *@
+        <div class="col-md-4 mb-4">
+            <div class="card position-relative service-card">
+                <img src="~/Images/laboratory.jpg" class="neurologyimage card-img-top" alt="laboratoryimage">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Neurologie</h5>
+                    <p class="card-text">We open new horizons by supporting your mental well-being.</p>
+                    <div class="read-more">
+                        <button class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*  +++++++++++ card 6 +++++++++++++++ *@
+        <div class="col-md-4 mb-4">
+            <div class="card position-relative service-card">
+                <img src="~/Images/psychiatry.jpg" class="cardioimage card-img-top" alt="psychiatryimage">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cardio</h5>
+                    <p class="card-text">We offer inner balance and happiness by healing your mind.</p>
+                    <div class="read-more">
+                        <button class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@* +++++++++++++ features +++++++++++++++++++++++++ *@
+
+<div class="container mt-5">
+    <div class="row mt-5">
+
+        <div class="col-md-6">
+            <h1 class="text-info fw-bolder mt-1 mb-4">Our Features</h1>
+            <h1 class="fw-bold">Wellness and Healing Center: Here to Transform Your Life</h1>
+            <div class="d-flex align-items-start mt-4">
+                <img src="~/Images/alah.png" alt="alahicons" class="me-3" width="50">
+                <div>
+                    <h5 class="fw-bold">Our Team Of Experts</h5>
+                    <p>Our team consists of expert doctors who are experienced and skilled in their respective fields. They form a dedicated team that is committed to continuously enhancing their knowledge and skills in order to provide our patients.</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-start mt-4">
+                <img src="~/Images/clinical.png" alt="Hygiene Icon" class="me-3" width="50">
+                <div>
+                    <h5 class="fw-bold">Clinical Hygiene</h5>
+                    <p>We maintain the highest level of clinical hygiene standards to ensure the health and well-being of our patients.</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-start mt-4">
+                <img src="~/Images/telephone.png" alt="Support Icon" class="me-3" width="50">
+                <div>
+                    <h5 class="fw-bold">24/7 Telephone Support</h5>
+                    <p>To ensure the highest level of customer satisfaction, we provide 24/7 telephone support. Our team of experts is always just a phone call away.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-end">
+            <img src="~/images/features.jpg" alt="Doctor Image" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+@* +++++++++++++ our expert team ++++++++++++++++++ *@
+
+<div class="container mt-5">
+    <h1 class="text-center text-info" style="font-size: 48px; font-family: 'Times New Roman'; font-weight: bold;">Our Team</h1>
+    <h2 class="text-center mb-5" style="font-size: 32px; font-family: 'Times New Roman'; font-weight: bold;">
+        Expert Team Members
+    </h2>
+    <div class="row">
+        @*  +++++++++++ card 1 +++++++++++++++ *@
+        <div class="col-md-3 mb-4">
+            <div class="card text-center h-100 overflow-hidden" style="padding: 15px; border-radius: 10px;">
+                <div class="image-container" style="position: relative; overflow: hidden; border-radius: 10px;">
+                    <img src="~/Images/ChiefMedicalOfficer.jpg" class="card-img-top img-fluid" alt="CMO" style="transition: transform 0.5s ease-in-out; width: 100%; border-radius: 10px;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Prof. Dr. Arthur Lovato</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Chief Medical Officer</h6>
+                    <div class="social-icons" style="opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease;">
+                        <a href="#" class="me-2"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @*  +++++++++++ card 2 +++++++++++++++ *@
+        <div class="col-md-3 mb-4">
+            <div class="card text-center h-100 overflow-hidden" style="padding: 15px; border-radius: 10px;">
+                <div class="image-container" style="position: relative; overflow: hidden; border-radius: 10px;">
+                    <img src="~/Images/OrthopedicSurgeon.jpg" class="card-img-top img-fluid" alt="OPS" style="transition: transform 0.5s ease-in-out; width: 100%; border-radius: 10px;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Dr. Danican Wilson</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Orthopedic Surgeon</h6>
+                    <div class="social-icons" style="opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease;">
+                        <a href="#" class="me-2"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @*  +++++++++++ card 3 +++++++++++++++ *@
+        <div class="col-md-3 mb-4">
+            <div class="card text-center h-100 overflow-hidden" style="padding: 15px; border-radius: 10px;">
+                <div class="image-container" style="position: relative; overflow: hidden; border-radius: 10px;">
+                    <img src="~/Images/Neurosurgeon.jpg" class="card-img-top img-fluid" alt="NS" style="transition: transform 0.5s ease-in-out; width: 100%; border-radius: 10px;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Dr. Adam Brown</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Neurosurgeon</h6>
+                    <div class="social-icons" style="opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease;">
+                        <a href="#" class="me-2"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @*  +++++++++++ card 4 +++++++++++++++ *@
+        <div class="col-md-3 mb-4">
+            <div class="card text-center h-100 overflow-hidden" style="padding: 15px; border-radius: 10px;">
+                <div class="image-container" style="position: relative; overflow: hidden; border-radius: 10px;">
+                    <img src="~/Images/ChiefNurse.jpg" class="card-img-top img-fluid" alt="CNimage" style="transition: transform 0.5s ease-in-out; width: 100%; border-radius: 10px;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Nurse Nikita Taylor</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Chief Nurse</h6>
+                    <div class="social-icons" style="opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease;">
+                        <a href="#" class="me-2"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@* +++++++++++++  patient say ++++++++++++++++ *@
+
+<div id="cardCarousel" class="carousel slide mx-5 px-5" data-bs-ride="carousel">
+    <h1 class="text-center text-info mt-5" style="font-size: 48px; font-family: 'Times New Roman'; font-weight: bold;">Testimonial</h1>
+    <h2 class="text-center mb-5" style="font-size: 32px; font-family: 'Times New Roman'; font-weight: bold;">Our Patients Say!</h2>
+    <div class="carousel-inner">
+
+        @* +++++++++++ first group card ++++++++++++++++++ *@
+        <div class="carousel-item active">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-3 h-100">
+                        <div class="d-flex align-items-center">
+                            <img src="~/Images/armsprain.jpg" class="rounded-circle me-3" alt="Patient Image">
+                            <div>
+                                <h5 class="card-title">Emily Johnson</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Arm Sprain</h6>
+                            </div>
+                        </div>
+                        <p class="mt-3">Since I started Coming to your clinic, I have received excellent service and care. Thanks to the expertise of the doctors and the attentiveness of the nurses, I have regained my health. I am grateful to the entire clinic team.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card p-3 h-100">
+                        <div class="d-flex align-items-center">
+                            <img src="~/Images/dentalpatient.jpg" class="rounded-circle me-3" alt="Patient Image">
+                            <div>
+                                <h5 class="card-title">Olivia Davis</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Dental Patient</h6>
+                            </div>
+                        </div>
+                        <p class="mt-3">I am extremely satisfied with the services at your clinic. The professional approach of the nurses and doctors made me feel secure about my health issues. I would like to thanks them for their support throughout my recovery.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card p-3 h-100">
+                        <div class="d-flex align-items-center">
+                            <img src="~/Images/tumorpatient.jpg" class="rounded-circle me-3" alt="Patient Image">
+                            <div>
+                                <h5 class="card-title">Ethan Thompson</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Tumor Patient</h6>
+                            </div>
+                        </div>
+                        <p class="mt-3">"David is improving day by day and is highly motivated."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        @*  ++++++++++++ Second Group card +++++++++++++++++++++ *@
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-3 h-100">
+                        <div class="d-flex align-items-center">
+                            <img src="~/Images/footfracture.jpg" class="rounded-circle me-3" alt="Patient Image">
+                            <div>
+                                <h5 class="card-title">Benjamin Wilson</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Foot Fracture</h6>
+                            </div>
+                        </div>
+                        <p class="mt-3">"Alice is showing remarkable resilience through the treatment."</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card p-3 h-100">
+                        <div class="d-flex align-items-center">
+                            <img src="~/Images/armsprain.jpg" class="rounded-circle me-3" alt="Patient Image">
+                            <div>
+                                <h5 class="card-title">Tom Hanks</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Arm Sprain</h6>
+                            </div>
+                        </div>
+                        <p class="mt-3">"Tom's progress has been steady and promising."</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card p-3 h-100">
+                        <div class="d-flex align-items-center">
+                            <img src="~/Images/dentalpatient.jpg" class="rounded-circle me-3" alt="Patient Image">
+                            <div>
+                                <h5 class="card-title">Olivia Davis</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Dental Patient</h6>
+                            </div>
+                        </div>
+                        <p class="mt-3">"Emma's dedication to recovery is inspiring for everyone."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @* ++++++ For Scrollbar +++++++++++++++++++++++ *@
+    <a class="carousel-control-prev" href="#cardCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#cardCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+
+
+

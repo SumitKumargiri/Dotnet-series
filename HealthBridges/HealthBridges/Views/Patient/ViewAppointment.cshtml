@@ -1,0 +1,59 @@
+﻿@model HealthBridges.Models.AppointmentViewModel
+@{
+    Layout = "~/Views/Shared/_PatientLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Appointments</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>Appointments for @Model.User.FullName</h2>
+
+    <div>
+        <h3>User Details</h3>
+        <p><strong>Username:</strong> @Model.User.Username</p>
+        <p><strong>Email:</strong> @Model.User.Email</p>
+        <p><strong>Category:</strong> @Model.User.Category</p>
+    </div>
+
+    <div>
+        <h3>Appointments</h3>
+        @if (Model.Appointments.Any())
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>Appointment ID</th>
+                        <th>Doctor Name</th>
+                        <th>Specialization</th>
+                        <th>Description</th>
+                        <th>Appointment Date</th>
+                        <th>Mobile Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var appointment in Model.Appointments)
+                    {
+                        <tr>
+                            <td>@appointment.AppointmentId</td>
+                            <td>@appointment.DoctorName</td>
+                            <td>@appointment.Specialization</td>
+                            <td>@appointment.Description</td>
+                            <td>@appointment.AppointmentDate.ToString("g")</td>
+                            <td>@appointment.MobileNumber</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No appointments found.</p>
+        }
+    </div>
+</body>
+</html>

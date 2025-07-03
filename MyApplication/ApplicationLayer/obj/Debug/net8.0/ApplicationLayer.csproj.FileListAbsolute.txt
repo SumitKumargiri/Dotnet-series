@@ -1,0 +1,15 @@
+F:\.Net Project\MyApplication\ApplicationLayer\bin\Debug\net8.0\ApplicationLayer.deps.json
+F:\.Net Project\MyApplication\ApplicationLayer\bin\Debug\net8.0\ApplicationLayer.dll
+F:\.Net Project\MyApplication\ApplicationLayer\bin\Debug\net8.0\ApplicationLayer.pdb
+F:\.Net Project\MyApplication\ApplicationLayer\bin\Debug\net8.0\CoreLayer.dll
+F:\.Net Project\MyApplication\ApplicationLayer\bin\Debug\net8.0\CoreLayer.pdb
+F:\.Net Project\MyApplication\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.csproj.AssemblyReference.cache
+F:\.Net Project\MyApplication\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\.Net Project\MyApplication\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.AssemblyInfoInputs.cache
+F:\.Net Project\MyApplication\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.AssemblyInfo.cs
+F:\.Net Project\MyApplication\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.csproj.CoreCompileInputs.cache
+F:\.Net Project\MyApplication\ApplicationLayer\obj\Debug\net8.0\Applicat.033E422A.Up2Date
+F:\.Net Project\MyApplication\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.dll
+F:\.Net Project\MyApplication\ApplicationLayer\obj\Debug\net8.0\refint\ApplicationLayer.dll
+F:\.Net Project\MyApplication\ApplicationLayer\obj\Debug\net8.0\ApplicationLayer.pdb
+F:\.Net Project\MyApplication\ApplicationLayer\obj\Debug\net8.0\ref\ApplicationLayer.dll

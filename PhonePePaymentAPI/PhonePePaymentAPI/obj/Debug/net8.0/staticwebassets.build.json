@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "c6bqZVnretCcZcXv6/zpWfkuh9atsnwtOc6nqGfVKO4=",
+  "Source": "PhonePePaymentAPI",
+  "BasePath": "_content/PhonePePaymentAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

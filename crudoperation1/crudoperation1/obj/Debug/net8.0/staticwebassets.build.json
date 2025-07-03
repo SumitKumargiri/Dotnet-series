@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NKX8iV1MGIa+/tj1ds36eiVuSVD6Yy8FfuDeXwsojAw=",
+  "Source": "Identiryserver",
+  "BasePath": "_content/Identiryserver",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

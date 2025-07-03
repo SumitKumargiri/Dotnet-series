@@ -1,0 +1,188 @@
+﻿@{
+    ViewData["Title"] = "Calendar";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css' rel='stylesheet' />
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+<style>
+    .calendar-section {
+        height: 80vh;
+        padding: 20px;
+    }
+
+    #calendar {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .form-group {
+        margin-bottom: 1rem; 
+    }
+
+    .shadow {
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    }
+</style>
+
+<div class="container">
+    <div class="calendar-section">
+        <div id="calendar"></div>
+
+        <form asp-action="Create" method="post" class="mt-4 d-flex align-items-center shadow p-4 rounded bg-white" style="box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); margin:8px;">
+            <div class="form-group mr-3">
+                <label for="EventDate">Event Date</label>
+                <input type="date" class="form-control" id="EventDate" name="EventDate" required />
+            </div>
+            <div class="form-group mr-3">
+                <label for="EventName">Event Name</label>
+                <input type="text" class="form-control" id="EventName" name="EventName" required />
+            </div>
+            <button type="submit" class="btn btn-primary mr-3">Add Event</button>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                    <i class="bi bi-three-dots"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#" id="btnUpdateEvent">Update</a>
+                    <a class="dropdown-item" href="#" id="btnDeleteEvent">Delete</a>
+                </div>
+            </div>
+        </form>
+        <div class="mb-3"></div>
+
+    </div>
+</div>
+
+
+<div class="modal fade" id="selectDateModal" tabindex="-1" role="dialog" aria-labelledby="selectDateModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="selectDateModalLabel">Select Date</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="selectDateForm">
+                    <div class="form-group">
+                        <label for="SelectEventDate">Event Date</label>
+                        <input type="date" class="form-control" id="SelectEventDate" name="SelectEventDate" required />
+                    </div>
+                    <button type="button" class="btn btn-primary" id="btnFetchEvent">Fetch Event</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* +++++++++++++++++++++++  Edit Event ++++++++++++++++++++++++++++++++++++++ *@
+
+<div class="modal fade" id="editEventModal" tabindex="-1" role="dialog" aria-labelledby="editEventModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editEventModalLabel">Edit Event</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editEventForm">
+                    <div class="form-group">
+                        <label for="SelectEventDate">Event Date</label>
+                        <input type="date" class="form-control" id="SelectEventDate" name="SelectEventDate" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="UpdateEventName">Event Name</label>
+                        <input type="text" class="form-control" id="UpdateEventName" name="UpdateEventName" required />
+                    </div>
+                    <button type="button" class="btn btn-primary" id="btnSaveChanges">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js'></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,timeGridWeek,timeGridDay'
+                },
+                events: '/Event/GetEvents'
+            });
+
+            calendar.render();
+        });
+
+        $('#btnUpdateEvent').click(function () {
+            $('#selectDateModal').modal('show');
+        });
+
+        $('#btnFetchEvent').click(function () {
+            var eventDate = $('#SelectEventDate').val();
+
+            $.ajax({
+                url: '/Event/GetEventByDate',
+                type: 'GET',
+                data: { date: eventDate },
+                success: function (data) {
+                    if (data) {
+                        $('#UpdateEventName').val(data.eventName); 
+                        $('#selectDateModal').modal('hide'); 
+                        $('#editEventModal').modal('show');   
+                    } else {
+                        alert("No event found for this date.");
+                    }
+                }
+            });
+        });
+
+
+        $('#btnSaveChanges').click(function () {
+            var updatedEvent = {
+                EventDate: $('#SelectEventDate').val(), 
+                EventName: $('#UpdateEventName').val() 
+            };
+
+            $.ajax({
+                url: '/Event/UpdateEvent',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(updatedEvent),
+                success: function () {
+                    $('#editEventModal').modal('hide');
+                    alert('Event updated successfully!');
+                    location.reload();
+                },
+                error: function () {
+                    alert('Error updating event. Please try again.');
+                }
+            });
+        });
+
+    </script>
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcCrudService";
+
+package crud;
+
+// The CRUD service definition
+service CrudService {
+    rpc GetData(Empty) returns (DataResponse);
+}
+
+// The request message containing no fields
+message Empty {}
+
+// The response message containing a list of Crud items
+message DataResponse {
+    repeated Crud items = 1;
+}
+
+// The Crud item message definition
+message Crud {
+    int32 id = 1;
+    string name = 2;
+    string email = 3;
+    string country = 4;
+}

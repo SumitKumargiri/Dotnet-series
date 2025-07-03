@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\.Net Project\\RabbitMQWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1F9BEE-3229-4239-A565-CB96A0151A07}|RabbitMQWebAPI\\RabbitMQWebAPI.csproj|f:\\.net project\\rabbitmqwebapi\\rabbitmqwebapi\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB1F9BEE-3229-4239-A565-CB96A0151A07}|RabbitMQWebAPI\\RabbitMQWebAPI.csproj|solutionrelative:rabbitmqwebapi\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1F9BEE-3229-4239-A565-CB96A0151A07}|RabbitMQWebAPI\\RabbitMQWebAPI.csproj|F:\\.Net Project\\RabbitMQWebAPI\\rabbitmqwebapi\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB1F9BEE-3229-4239-A565-CB96A0151A07}|RabbitMQWebAPI\\RabbitMQWebAPI.csproj|solutionrelative:rabbitmqwebapi\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1F9BEE-3229-4239-A565-CB96A0151A07}|RabbitMQWebAPI\\RabbitMQWebAPI.csproj|F:\\.Net Project\\RabbitMQWebAPI\\rabbitmqwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB1F9BEE-3229-4239-A565-CB96A0151A07}|RabbitMQWebAPI\\RabbitMQWebAPI.csproj|solutionrelative:rabbitmqwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1F9BEE-3229-4239-A565-CB96A0151A07}|RabbitMQWebAPI\\RabbitMQWebAPI.csproj|F:\\.Net Project\\RabbitMQWebAPI\\rabbitmqwebapi\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB1F9BEE-3229-4239-A565-CB96A0151A07}|RabbitMQWebAPI\\RabbitMQWebAPI.csproj|solutionrelative:rabbitmqwebapi\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1F9BEE-3229-4239-A565-CB96A0151A07}|RabbitMQWebAPI\\RabbitMQWebAPI.csproj|F:\\.Net Project\\RabbitMQWebAPI\\rabbitmqwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB1F9BEE-3229-4239-A565-CB96A0151A07}|RabbitMQWebAPI\\RabbitMQWebAPI.csproj|solutionrelative:rabbitmqwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1F9BEE-3229-4239-A565-CB96A0151A07}|RabbitMQWebAPI\\RabbitMQWebAPI.csproj|F:\\.Net Project\\RabbitMQWebAPI\\rabbitmqwebapi\\interface\\irabbitmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB1F9BEE-3229-4239-A565-CB96A0151A07}|RabbitMQWebAPI\\RabbitMQWebAPI.csproj|solutionrelative:rabbitmqwebapi\\interface\\irabbitmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 26,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessagesController.cs",
+              "DocumentMoniker": "F:\\.Net Project\\RabbitMQWebAPI\\RabbitMQWebAPI\\Controllers\\MessagesController.cs",
+              "RelativeDocumentMoniker": "RabbitMQWebAPI\\Controllers\\MessagesController.cs",
+              "ToolTip": "F:\\.Net Project\\RabbitMQWebAPI\\RabbitMQWebAPI\\Controllers\\MessagesController.cs",
+              "RelativeToolTip": "RabbitMQWebAPI\\Controllers\\MessagesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T16:50:39.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRabbitMQ.cs",
+              "DocumentMoniker": "F:\\.Net Project\\RabbitMQWebAPI\\RabbitMQWebAPI\\Interface\\IRabbitMQ.cs",
+              "RelativeDocumentMoniker": "RabbitMQWebAPI\\Interface\\IRabbitMQ.cs",
+              "ToolTip": "F:\\.Net Project\\RabbitMQWebAPI\\RabbitMQWebAPI\\Interface\\IRabbitMQ.cs",
+              "RelativeToolTip": "RabbitMQWebAPI\\Interface\\IRabbitMQ.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T16:47:15.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Message.cs",
+              "DocumentMoniker": "F:\\.Net Project\\RabbitMQWebAPI\\RabbitMQWebAPI\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "RabbitMQWebAPI\\Models\\Message.cs",
+              "ToolTip": "F:\\.Net Project\\RabbitMQWebAPI\\RabbitMQWebAPI\\Models\\Message.cs",
+              "RelativeToolTip": "RabbitMQWebAPI\\Models\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T16:46:12.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\.Net Project\\RabbitMQWebAPI\\RabbitMQWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RabbitMQWebAPI\\Program.cs",
+              "ToolTip": "F:\\.Net Project\\RabbitMQWebAPI\\RabbitMQWebAPI\\Program.cs",
+              "RelativeToolTip": "RabbitMQWebAPI\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T16:33:18.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RabbitMQService.cs",
+              "DocumentMoniker": "F:\\.Net Project\\RabbitMQWebAPI\\RabbitMQWebAPI\\Services\\RabbitMQService.cs",
+              "RelativeDocumentMoniker": "RabbitMQWebAPI\\Services\\RabbitMQService.cs",
+              "ToolTip": "F:\\.Net Project\\RabbitMQWebAPI\\RabbitMQWebAPI\\Services\\RabbitMQService.cs",
+              "RelativeToolTip": "RabbitMQWebAPI\\Services\\RabbitMQService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwB4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T16:31:04.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\.Net Project\\RabbitMQWebAPI\\RabbitMQWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "RabbitMQWebAPI\\appsettings.json",
+              "ToolTip": "F:\\.Net Project\\RabbitMQWebAPI\\RabbitMQWebAPI\\appsettings.json",
+              "RelativeToolTip": "RabbitMQWebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-03T16:27:46.802Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

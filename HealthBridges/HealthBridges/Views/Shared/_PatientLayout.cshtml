@@ -1,0 +1,186 @@
+﻿@* @page
+@model HealthBridges.Views.Shared._PatientLayoutModel *@
+@{
+    var FullName = Context.Session.GetString("FullName") ?? "Guest";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Patient Dashboard</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/patientdashboard.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<style>
+
+</style>
+<body>
+    <div class="sidebar text-black text-center bg-primary border-2 shadow-sm" style="font-size:18px;">
+       @*  <img src="~/Images/patientimage.png" alt="Alternate Text" class="img-fluid mb-2" style="width: 60%; height: 150px; object-fit: cover;" /> *@
+        <div style="position: relative; display: inline-block;">
+            <img id="profileImage" src="~/Images/patientimage.png" alt="Profile Image" style="width: 150px; height: 150px; border-radius: 10px; object-fit: cover; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" />
+            <i class="bi bi-pencil-square" onclick="document.getElementById('imageUpload').click()" style="position: absolute; top: 10px; right: 10px; font-size: 24px; color: #ffffff; cursor: pointer; background-color: #007bff; border-radius: 50%; padding: 4px;"></i>
+            <input type="file" id="imageUpload" style="display: none;" onchange="uploadImage()" />
+        </div>
+
+
+
+
+        @if (!string.IsNullOrEmpty(FullName))
+        {
+            <h4 class="text-center text-white mb-4">@FullName</h4>
+        }
+      
+        <a href="@Url.Action("PatientDashboard", "Patient")" class="sidebar-link text-white py-2">
+            <i class="bi bi-toggles"></i> Dashboard
+        </a>
+
+        <div id="manage-appointment-section">
+            <a href="javascript:void(0)" id="manageAppointmentLink" class="sidebar-link text-white py-2" onclick="toggleAppointmentOptions()">
+                <i class="bi bi-calendar-plus"></i> Appointment <i id="manageAppointmentIcon" class="bi bi-plus" style="margin-left:0px; font-size:24px; font-weight:bolder;"></i>
+            </a>
+            <div id="appointmentOptions" style="display: none;">
+                <a href="@Url.Action("Appointment", "Patient")" class="sidebar-link text-white py-2 ms-3 d-flex align-items-center">
+                    <i class="bi bi-dash" style="font-size:24px;"></i> Book Appointment
+                </a>
+                <a href="@Url.Action("ViewAppointment", "Patient")" class="sidebar-link text-white py-2 ms-3 d-flex align-items-center">
+                    <i class="bi bi-dash" style="font-size:24px;"></i> View Appointment 
+                </a>
+            </div>
+        </div>
+
+
+        <div id="manage-medicalrecord-section">
+            <a href="javascript:void(0)" id="medicalrecordLink" class="sidebar-link text-white py-2" onclick="togglemedicalrecordOptions()">
+                <i class="bi bi-file-earmark-text"></i> MedicalRecord <i id="medicalrecordIcon" class="bi bi-plus" style="margin-left:0px;font-size:24px; font-weight:bolder;"></i>
+            </a>
+
+            <div id="medicalrecordOptions" style="display: none;">
+                <a href="@Url.Action("", "Patient")" class="sidebar-link text-white py-2 ms-3 d-flex align-items-center">
+                    <i class="bi bi-dash" style="font-size:24px;"></i>
+                    <span>View Medical Report</span>
+                </a>
+
+                <a href="@Url.Action("UploadDocument", "Patient")" class="sidebar-link text-white py-2 ms-3 d-flex align-items-center">
+                    <i class="bi bi-dash" style="font-size:24px;"></i>
+                    <span>Upload Document</span>
+                </a>
+            </div>
+        </div>
+
+
+
+        <a href="@Url.Action("ChatPatient", "Patient")" class="sidebar-link text-white py-2">
+            <i class="bi bi-chat-left-text-fill"></i> Chat
+        </a>
+
+        <a href="@Url.Action("PatientEvent", "Patient")" class="sidebar-link text-white py-2">
+            <i class="bi bi-calendar-event-fill"></i> Event
+        </a>
+    </div>
+
+    <div class="content" style="background-color:lightcyan;">
+        <header class="header bg-white border-bottom shadow-sm p-3">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Welcome , @FullName</h5>
+            </div>
+        </header>
+
+        <main role="main" class="container">
+            @RenderBody()
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <span>&copy; 2024 - HealthBridge Admin</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function toggleAppointmentOptions() {
+            var appointmentOptions = document.getElementById("appointmentOptions");
+            var manageAppointmentIcon = document.getElementById("manageAppointmentIcon");
+
+            if (appointmentOptions.style.display === "none") {
+                appointmentOptions.style.display = "block";
+                manageAppointmentIcon.classList.remove("bi-plus");
+                manageAppointmentIcon.classList.add("bi-dash");
+            } else {
+                appointmentOptions.style.display = "none";
+                manageAppointmentIcon.classList.remove("bi-dash");
+                manageAppointmentIcon.classList.add("bi-plus");
+            }
+        }
+
+
+        function togglemedicalrecordOptions() {
+            var medicalrecordOptions = document.getElementById("medicalrecordOptions");
+            var managemedicalrecordIcon = document.getElementById("medicalrecordIcon");
+
+            if (medicalrecordOptions.style.display === "none") {
+                medicalrecordOptions.style.display = "block";
+                managemedicalrecordIcon.classList.remove("bi-plus");
+                managemedicalrecordIcon.classList.add("bi-dash");
+            } else {
+                medicalrecordOptions.style.display = "none";
+                managemedicalrecordIcon.classList.remove("bi-dash");
+                managemedicalrecordIcon.classList.add("bi-plus");
+            }
+        }
+
+
+
+        function loadProfileImage() {
+            var profileImageUrl = localStorage.getItem("ProfileImage");
+            if (profileImageUrl) {
+                document.getElementById("profileImage").src = profileImageUrl;
+            }
+        }
+
+        window.onload = loadProfileImage;
+
+
+
+        function uploadImage() {
+            var userId = localStorage.getItem("UserId");
+            var fileInput = document.getElementById("imageUpload");
+
+            var formData = new FormData();
+            formData.append("profileImage", fileInput.files[0]);
+            formData.append("userId", userId);
+
+            $.ajax({
+                url: '@Url.Action("UploadProfileImage", "Patient")',
+                type: 'POST',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    if (response.success) {
+                        localStorage.setItem("ProfileImage", response.imageUrl);
+                        document.getElementById("profileImage").src = response.imageUrl;
+                        alert("Image uploaded successfully!");
+                    } else {
+                        alert("Image upload failed. Please try again.");
+                    }
+                },
+                error: function () {
+                    alert("An error occurred while uploading the image.");
+                }
+            });
+        }
+
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

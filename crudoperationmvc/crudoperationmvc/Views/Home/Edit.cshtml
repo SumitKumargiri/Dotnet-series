@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model crudoperationmvc.Models.Home
+
+<h2>Update Record</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div>
+        <label for="FirstName">First Name:</label>
+        <input type="text" asp-for="FirstName" id="FirstName" required />
+    </div>
+    <div>
+        <label for="LastName">Last Name:</label>
+        <input type="text" asp-for="LastName" id="LastName" required />
+    </div>
+    <div>
+        <label for="Email">Email:</label>
+        <input type="email" asp-for="Email" id="Email" required />
+    </div>
+    <div>
+        <label for="MobileNumber">Mobile Number:</label>
+        <input type="number" asp-for="MobileNumber" id="MobileNumber" required />
+    </div>
+    <button type="submit">Update</button>
+</form>
+
+<p><a href="/Home/Index">Back to List</a></p>
+

@@ -1,0 +1,63 @@
+﻿@model HealthBridges.Models.PatientDocument
+
+@{
+    Layout = "~/Views/Shared/_PatientLayout.cshtml";
+}
+
+<div class="container">
+    <h2>Upload Document</h2>
+    <form id="documentUploadForm" enctype="multipart/form-data" method="post">
+        <input type="hidden" id="UserId" name="UserId" />
+
+        <div class="form-group">
+            <label for="Title">Title</label>
+            <input type="text" class="form-control" id="Title" name="Title" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Type">Type</label>
+            <input type="text" class="form-control" id="Type" name="Type" required />
+        </div>
+
+        <div class="form-group">
+            <label for="DoctorName">Doctor Name</label>
+            <input type="text" class="form-control" id="DoctorName" name="DoctorName" required />
+        </div>
+
+        <div class="form-group">
+            <label for="File">File</label>
+            <input type="file" class="form-control" id="File" name="File" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Description">Description</label>
+            <textarea class="form-control" id="Description" name="Description" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Upload Document</button>
+    </form>
+</div>
+
+<script>
+    $("#documentUploadForm").submit(function (event) {
+        event.preventDefault();
+        var formData = new FormData(this);
+        $.ajax({
+            url: '@Url.Action("UploadDocument", "Patient")',
+            type: 'POST',
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function (response) {
+                if (response.success) {
+                    alert("Document uploaded successfully!");
+                } else {
+                    alert("Error: Invalid data provided.");
+                }
+            },
+            error: function () {
+                alert("There was an error uploading the document.");
+            }
+        });
+    });
+</script>

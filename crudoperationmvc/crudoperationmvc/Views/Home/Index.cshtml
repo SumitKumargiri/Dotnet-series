@@ -1,0 +1,42 @@
+﻿@model List<crudoperationmvc.Models.Home>
+
+<link rel="stylesheet" href="~/css/site.css">
+
+
+<h3>Records List</h3>
+<table cellpadding="10" cellspacing="0">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Mobile Number</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count > 0)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.Email</td>
+                    <td>@item.MobileNumber</td>
+                    <td><button><a href="/Home/Add">Add</a></button></td>
+                    <td><button><a href="/Home/Edit/@item.Id">Edit</a></button></td>
+                    <td><button><a href="/Home/Delete/@item.Id">Delete</a></button></td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">No records found.</td>
+            </tr>
+        }
+    </tbody>
+</table>

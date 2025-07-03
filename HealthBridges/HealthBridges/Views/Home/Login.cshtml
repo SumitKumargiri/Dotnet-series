@@ -1,0 +1,120 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model HealthBridges.Models.LoginModel
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+
+
+<div class="login-container d-flex min-vh-100">
+    <div class="login-box-container d-flex flex-column justify-content-center align-items-center w-50 p-5 bg-white">
+        <h2 class="mb-4">LOGIN</h2>
+        <form asp-action="Login" method="post" class="w-100">
+
+            <div class="form-group mb-3">
+                <label for="Category" class="form-label">Select Category</label>
+                <select id="Category" asp-for="Category" class="form-control" asp-items="Model.CategoryList">
+                    <option value="">-- Select Category --</option>
+                </select>
+                <span asp-validation-for="Category" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Username" class="form-label"></label>
+                <input asp-for="Username" class="form-control" placeholder="Enter your username" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-4">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" class="form-control" placeholder="Enter your password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
+
+        <div class="mt-4 text-center">
+            <a href="@Url.Action("Signup", "Home")" class="text-secondary">Don't have an account? Sign up</a>
+        </div>
+    </div>
+
+    <div class="image-box-container w-50 position-relative bg-info">
+        <img src="/images/Login1.png" class="img-fluid h-100 w-100" alt="Login Image" style="object-fit: cover;">
+        <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-blue-overlay"></div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("form").on("submit", function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            $.ajax({
+                type: "POST",
+                url: $(this).attr("action"), // Form action URL
+                data: $(this).serialize(), // Serialize form data
+                success: function (response) {
+                    console.log("Server Response:", response); // Debugging log
+
+                    if (response.success) {
+                        // Store user data in localStorage
+                        localStorage.setItem("UserId", response.userId || "N/A");
+                        localStorage.setItem("FullName", response.fullName || "Guest");
+                        localStorage.setItem("Username", response.username || "Anonymous");
+                        localStorage.setItem("Category", response.category || "Unknown");
+                        localStorage.setItem(
+                            "ProfileImage",
+                            response.profileImage || "default-profile-image.png"
+                        );
+
+                        // Show success message
+                        toastr[response.toastrType || 'info'](response.toastrMessage);
+
+                        // Redirect user based on category
+                        switch (response.category) {
+                            case "Admin":
+                                window.location.href = '@Url.Action("AdminDashboard", "Admin")';
+                                break;
+                            case "Doctor":
+                            case "Nurse":
+                                window.location.href = '@Url.Action("DoctorNurseDashboard", "DoctorNurse")';
+                                break;
+                            case "Patient":
+                                window.location.href = '@Url.Action("PatientDashboard", "Patient")';
+                                break;
+                            default:
+                                toastr.warning("Unknown user category.");
+                        }
+                    } else {
+                        // Show error message
+                        toastr[response.toastrType || 'error'](response.toastrMessage || "Login failed.");
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error("AJAX Error:", error); // Log AJAX error
+                    toastr.error("An error occurred. Please try again.");
+                }
+            });
+        });
+    });
+</script>
+
+
+
+
+
+
+
+

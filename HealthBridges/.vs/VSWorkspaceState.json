@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HealthBridges",
+    "\\HealthBridges\\Controllers",
+    "\\HealthBridges\\Views",
+    "\\HealthBridges\\Views\\Admin",
+    "\\HealthBridges\\Views\\Home",
+    "\\HealthBridges\\Views\\Patient",
+    "\\HealthBridges\\Views\\Shared",
+    "\\HealthBridges\\wwwroot",
+    "\\HealthBridges\\wwwroot\\css"
+  ],
+  "SelectedNode": "\\HealthBridges.sln",
+  "PreviewInSolutionExplorer": false
+}

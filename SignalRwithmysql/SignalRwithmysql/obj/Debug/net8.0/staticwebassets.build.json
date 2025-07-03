@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "R2XXNvHI7GqECGjZvRXayF/XQ+dbD83lRCQroiMLjzw=",
+  "Source": "SignalRwithmysql",
+  "BasePath": "_content/SignalRwithmysql",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

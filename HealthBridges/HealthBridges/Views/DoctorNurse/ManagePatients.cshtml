@@ -1,0 +1,247 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_DoctorNurseLayout.cshtml";
+    ViewData["Title"] = "Doctor/Nurse Dashboard";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Patients</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        .action-icons {
+            display: none;
+            margin-left: 10px;
+        }
+
+        .dropdown-menu {
+            min-width: auto;
+        }
+
+        .action-button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2 class="mb-4">Manage Patients</h2>
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">User ID</th>
+                    <th scope="col">Full Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Medical Record Number</th>
+                    <th scope="col">Date of Birth</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">MobileNumber</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Progress</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var patient in Model)
+                {
+                    <tr>
+                        <td>@patient.UserId</td>
+                        <td>@patient.FullName</td>
+                        <td>@patient.Email</td>
+                        <td>@patient.MedicalRecordNumber</td>
+                        <td>@patient.DateOfBirth</td>
+                        <td>@patient.Address</td>
+                        <td>@patient.MobileNumber</td>
+                        <td>@patient.Status</td>
+                        <td>@patient.Progress</td>
+                        <td>
+            @*  +++++++++++++++++++++++++++++ Actions +++++++++++++++++++++++++++++++ *@
+
+                            <a href="javascript:void(0);" class="text-info me-2" onclick="viewPatient('@patient.MedicalRecordNumber')">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <div class="dropdown d-inline-block ms-1">
+                                <i class="fas fa-ellipsis-v action-button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="javascript:void(0);" class="dropdown-item" onclick="editPatient('@patient.MedicalRecordNumber')">
+                                            <i class="fas fa-pencil-alt"></i> Edit
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("DeletePatient", new { id = patient.MedicalRecordNumber })" class="dropdown-item text-danger">
+                                            <i class="fas fa-trash-alt"></i> Delete
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+   @*  ++++++++++++++ Patient Details Modal +++++++++++++++++++++ *@
+
+    <div class="modal fade" id="patientDetailsModal" tabindex="-1" role="dialog" aria-labelledby="patientDetailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center align-content-center text-info" id="patientDetailsModalLabel">Patient Details</h5>
+                </div>
+                <div class="modal-body">
+                    <p><strong>User ID:</strong> <span id="modalUserId"></span></p>
+                    <p><strong>Full Name:</strong> <span id="modalFullName"></span></p>
+                    <p><strong>Email:</strong> <span id="modalEmail"></span></p>
+                    <p><strong>Medical Record Number:</strong> <span id="modalMRN"></span></p>
+                    <p><strong>Date of Birth:</strong> <span id="modalDOB"></span></p>
+                    <p><strong>Address:</strong> <span id="modalAddress"></span></p>
+                    <p><strong>MobileNumber:</strong> <span id="modalMobileNumber"></span></p>
+                    <p><strong>Status:</strong> <span id="modalStatus"></span></p>
+                    <p><strong>Progress:</strong> <span id="modalProgress"></span></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+@* 
+    +++++++++++++++++++++ Edit Patient Modal +++++++++++++++++++++ *@
+
+    <div class="modal fade" id="editPatientModal" tabindex="-1" role="dialog" aria-labelledby="editPatientModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Patient</h5>
+                </div>
+                <div class="modal-body">
+                    <form id="editPatientForm">
+                        <div class="mb-3">
+                            <label for="editFullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="editFullName" name="fullName" disabled />
+                        </div>
+                        <div class="mb-3">
+                            <label for="editEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="editEmail" name="email" disabled />
+                        </div>
+                        <div class="mb-3">
+                            <label for="editDOB" class="form-label">Date of Birth</label>
+                            <input type="date" class="form-control" id="editDOB" name="dateOfBirth" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="editAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="editAddress" name="address" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="editMobileNumber" class="form-label">MobileNumber</label>
+                            <input type="number" class="form-control" id="editMobileNumber" name="MobileNumber" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="editStatus" class="form-label">Status</label>
+                            <input type="text" class="form-control" id="editStatus" name="Status" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="editProgress" class="form-label">Progress</label>
+                            <input type="text" class="form-control" id="editProgress" name="Progress" />
+                        </div>
+
+                        <input type="hidden" id="editMRN" name="medicalRecordNumber" />
+                        <input type="hidden" id="editUserId" name="userId" />
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="savePatientChanges()">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function viewPatient(medicalRecordNumber) {
+            $.ajax({
+                url: '@Url.Action("GetPatientDetails", "DoctorNurse")',
+                type: 'GET',
+                data: { medicalRecordNumber: medicalRecordNumber },
+                success: function (data) {
+                   // console.log(data);
+                    $('#modalUserId').text(data.userId || 'N/A');
+                    $('#modalFullName').text(data.fullName || 'N/A');
+                    $('#modalEmail').text(data.email || 'N/A');
+                    $('#modalMRN').text(data.medicalRecordNumber || 'N/A');
+                    $('#modalDOB').text(data.dateOfBirth || 'N/A');
+                    $('#modalAddress').text(data.address || 'N/A');
+                    $('#modalMobileNumber').text(data.MobileNumber || 'N/A');
+                    $('#modalStatus').text(data.Status || 'N/A');
+                    $('#modalProgress').text(data.Progress || 'N/A');
+
+                    $('#patientDetailsModal').modal('show');
+                }
+            });
+        }
+
+
+        function editPatient(medicalRecordNumber) {
+            $.ajax({
+                url: '@Url.Action("GetPatientDetails", "DoctorNurse")',
+                data: { medicalRecordNumber: medicalRecordNumber },
+                success: function (patient) {
+                    $('#editFullName').val(patient.fullName);
+                    $('#editEmail').val(patient.email);
+                    $('#editDOB').val(patient.dateOfBirth);
+                    $('#editAddress').val(patient.address);
+                    $('#editMobileNumber').val(patient.MobileNumber);
+                    $('#editStatus').val(patient.Status);
+                    $('#editProgress').val(patient.Progress);
+                    $('#editMRN').val(patient.medicalRecordNumber);
+                    $('#editUserId').val(patient.userId);
+                    $('#editPatientModal').modal('show');
+                }
+            });
+        }
+
+        function savePatientChanges() {
+            var formData = $('#editPatientForm').serialize();
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("UpdatePatientDetails", "DoctorNurse")',
+                data: formData,
+                success: function (response) {
+                    if (response.success) {
+                        $('#editPatientModal').modal('hide');
+                        alert('Patient details updated successfully.');
+                        location.reload();
+                    } else {
+                        alert('Failed to update patient details.');
+                    }
+                }
+            });
+        }
+
+    </script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,99 @@
+﻿@model HealthBridges.Models.Appointment
+
+@{
+    Layout = "~/Views/Shared/_PatientLayout.cshtml";
+    ViewData["Title"] = "Schedule Appointment";
+}
+
+<style>
+    .form-control {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+    }
+
+        .form-control:focus {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+        margin-left: 10px;
+    }
+
+    .appointment-form {
+        width: 100%;
+        background-color: white;
+        border-radius: 10px; 
+        padding: 20px; 
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+        margin: 20px auto; 
+    }
+</style>
+
+<form asp-action="Appointment" method="post" class="appointment-form">
+    <input type="hidden" id="UserId" asp-for="UserId" />
+
+    <div class="form-row d-flex" style="width:100%;">
+        <div class="form-group col-md-4">
+            <label asp-for="DoctorName"></label>
+            <input type="text" asp-for="DoctorName" class="form-control" />
+            <span asp-validation-for="DoctorName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group col-md-3">
+            <label asp-for="DateOfBirth"></label>
+            <input type="date" asp-for="DateOfBirth" class="form-control" />
+            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label asp-for="Specialization"></label>
+            <input type="text" asp-for="Specialization" class="form-control" />
+            <span asp-validation-for="Specialization" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-row d-flex" style="width:100%;">
+        <div class="form-group col-md-5">
+            <label asp-for="AppointmentDate"></label>
+            <input type="date" asp-for="AppointmentDate" class="form-control" id="AppointmentDate" />
+            <span asp-validation-for="AppointmentDate" class="text-danger"></span>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label asp-for="MobileNumber"></label>
+            <input type="number" asp-for="MobileNumber" class="form-control" />
+            <span asp-validation-for="MobileNumber" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-primary">Save Appointment</button>
+    </div>
+</form>
+
+@section Scripts {
+         <script>
+              document.addEventListener("DOMContentLoaded", function () {
+                  const userId = localStorage.getItem("UserId");
+                  if (userId) {
+                      document.getElementById("UserId").value = userId;
+                  }
+
+                  const minYear = 1994;
+                  const maxYear = 2040;
+
+                  const minDate = new Date(minYear, 0, 1).toISOString().split("T")[0]; 
+                  const maxDate = new Date(maxYear, 11, 31).toISOString().split("T")[0]; 
+
+                  document.getElementById("AppointmentDate").setAttribute("min", minDate);
+                  document.getElementById("AppointmentDate").setAttribute("max", maxDate);
+              });
+    </script>
+}

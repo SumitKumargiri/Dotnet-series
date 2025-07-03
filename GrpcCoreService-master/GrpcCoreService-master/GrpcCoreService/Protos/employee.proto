@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcCoreService.EmployeeProtos";
+
+package employee;
+
+service Employee {
+	rpc GetEmpInformation (GetEmpDetail) returns (EmpModel);
+}
+
+message GetEmpDetail{
+	int32 empId = 1;
+}
+
+message EmpModel{
+	string empName = 1;
+	string empEmail = 2;
+	string empRole = 3;
+	string empDepartment = 4;
+}

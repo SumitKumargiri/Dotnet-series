@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Dllprocess",
+    "\\Dllprocess\\Controllers",
+    "\\Dllprocess\\Services",
+    "\\GrpcCrudService1",
+    "\\GrpcCrudService1\\Protos",
+    "\\GrpcCrudService1\\Services",
+    "\\grpctest",
+    "\\grpctest\\Services"
+  ],
+  "SelectedNode": "\\GrpcCrudService1\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

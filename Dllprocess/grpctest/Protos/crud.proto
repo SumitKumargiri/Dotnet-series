@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+service CrudService {
+  rpc GetCrudData (Empty) returns (CrudData) {}
+  rpc CreateCrudData (CrudData) returns (Empty) {}
+  rpc UpdateCrudData (CrudData) returns (Empty) {}
+  rpc DeleteCrudData (Id) returns (Empty) {}
+}
+
+message Empty {}
+
+message Id {
+  int32 id = 1;
+}
+
+message CrudData {
+  int32 id = 1;
+  string name = 2;
+  string email = 3;
+  string country = 4;
+}

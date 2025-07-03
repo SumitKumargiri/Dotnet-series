@@ -1,0 +1,243 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\.Net Project\\FactoryDesignPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|f:\\.net project\\factorydesignpattern\\factorydesignpattern\\services\\crudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|solutionrelative:factorydesignpattern\\services\\crudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|f:\\.net project\\factorydesignpattern\\factorydesignpattern\\model\\resultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|solutionrelative:factorydesignpattern\\model\\resultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|f:\\.net project\\factorydesignpattern\\factorydesignpattern\\services\\crudservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|solutionrelative:factorydesignpattern\\services\\crudservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|f:\\.net project\\factorydesignpattern\\factorydesignpattern\\utility\\dbgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|solutionrelative:factorydesignpattern\\utility\\dbgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|f:\\.net project\\factorydesignpattern\\factorydesignpattern\\interface\\icrudfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|solutionrelative:factorydesignpattern\\interface\\icrudfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|f:\\.net project\\factorydesignpattern\\factorydesignpattern\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|solutionrelative:factorydesignpattern\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|f:\\.net project\\factorydesignpattern\\factorydesignpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461AAEB-B333-41CF-B5BB-F8E4C051536C}|FactoryDesignPattern\\FactoryDesignPattern.csproj|solutionrelative:factorydesignpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 28,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResultModel.cs",
+              "DocumentMoniker": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\Model\\ResultModel.cs",
+              "RelativeDocumentMoniker": "FactoryDesignPattern\\Model\\ResultModel.cs",
+              "ToolTip": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\Model\\ResultModel.cs",
+              "RelativeToolTip": "FactoryDesignPattern\\Model\\ResultModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T05:44:02.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DBGateway.cs",
+              "DocumentMoniker": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\utility\\DBGateway.cs",
+              "RelativeDocumentMoniker": "FactoryDesignPattern\\utility\\DBGateway.cs",
+              "ToolTip": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\utility\\DBGateway.cs",
+              "RelativeToolTip": "FactoryDesignPattern\\utility\\DBGateway.cs",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAcwOYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T05:43:43.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CrudService.cs",
+              "DocumentMoniker": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\Services\\CrudService.cs",
+              "RelativeDocumentMoniker": "FactoryDesignPattern\\Services\\CrudService.cs",
+              "ToolTip": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\Services\\CrudService.cs",
+              "RelativeToolTip": "FactoryDesignPattern\\Services\\CrudService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T05:26:13.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\Program.cs",
+              "RelativeDocumentMoniker": "FactoryDesignPattern\\Program.cs",
+              "ToolTip": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\Program.cs",
+              "RelativeToolTip": "FactoryDesignPattern\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:28:58.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CrudController.cs",
+              "DocumentMoniker": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\Controllers\\CrudController.cs",
+              "RelativeDocumentMoniker": "FactoryDesignPattern\\Controllers\\CrudController.cs",
+              "ToolTip": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\Controllers\\CrudController.cs",
+              "RelativeToolTip": "FactoryDesignPattern\\Controllers\\CrudController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:23:06.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrudServiceFactory.cs",
+              "DocumentMoniker": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\Services\\CrudServiceFactory.cs",
+              "RelativeDocumentMoniker": "FactoryDesignPattern\\Services\\CrudServiceFactory.cs",
+              "ToolTip": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\Services\\CrudServiceFactory.cs",
+              "RelativeToolTip": "FactoryDesignPattern\\Services\\CrudServiceFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:20:43.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICrudFactory.cs",
+              "DocumentMoniker": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\Interface\\ICrudFactory.cs",
+              "RelativeDocumentMoniker": "FactoryDesignPattern\\Interface\\ICrudFactory.cs",
+              "ToolTip": "F:\\.Net Project\\FactoryDesignPattern\\FactoryDesignPattern\\Interface\\ICrudFactory.cs",
+              "RelativeToolTip": "FactoryDesignPattern\\Interface\\ICrudFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:19:21.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

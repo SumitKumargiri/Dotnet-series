@@ -1,0 +1,2 @@
+obj\Release\net8.0\Protos/Crud.cs \
+obj\Release\net8.0\Protos/CrudGrpc.cs: Protos/crud.proto

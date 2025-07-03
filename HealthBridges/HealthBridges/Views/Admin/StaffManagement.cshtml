@@ -1,0 +1,193 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-menu-custom {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 10px 0;
+        z-index: 1;
+    }
+
+        .dropdown-menu-custom a {
+            color: black;
+            padding: 10px 16px;
+            text-decoration: none;
+            display: block;
+            font-size: 14px;
+        }
+
+            .dropdown-menu-custom a:hover {
+                background-color: #ddd;
+            }
+
+    .show {
+        display: block;
+    }
+</style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<h2>Staff Information</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Role Info</th>
+            <th>Mobile Number</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var doctor in Model.Doctors)
+        {
+            <tr>
+                <td>@doctor.FullName</td>
+                <td>@doctor.Email</td>
+                <td>Doctor</td>
+                <td>@doctor.DoctorInfo?.Specialization</td>
+                <td>@doctor.DoctorInfo?.MobileNumber</td>
+                <td>@(doctor.DoctorInfo?.Status == true ? "Active" : "Inactive")</td>
+                <td>
+                    <!-- Eye icon for view -->
+                    <a href="javascript:void(0);" title="View" onclick="viewDetails(@doctor.Id)">
+                        <i class="bi bi-eye"></i>
+                    </a>
+
+                    <!-- Three-dot action menu -->
+                    <div class="dropdown">
+                        <button class="btn btn-link text-dark" onclick="toggleMenu('menu-@doctor.Id')">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </button>
+                        <div id="menu-@doctor.Id" class="dropdown-menu-custom">
+                            <a href="@Url.Action("EditPatient", "ControllerName", new { id = doctor.Id })">
+                                &#x270E; Update
+                            </a>
+                            <a href="@Url.Action("DeletePatient", "ControllerName", new { id = doctor.Id })" onclick="return confirm('Are you sure you want to delete this entry?')">
+                                &#x1F5D1; Delete
+                            </a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+
+        @foreach (var nurse in Model.Nurses)
+        {
+            <tr>
+                <td>@nurse.FullName</td>
+                <td>@nurse.Email</td>
+                <td>Nurse</td>
+                <td>@nurse.NurseInfo?.Department</td>
+                <td>@nurse.NurseInfo?.MobileNumber</td>
+                <td>@(nurse.NurseInfo?.Status == true ? "Active" : "Inactive")</td>
+                <td>
+                    <!-- Eye icon for view -->
+                    <a href="javascript:void(0);" title="View" onclick="viewDetails(@nurse.Id)">
+                        <i class="bi bi-eye"></i>
+                    </a>
+
+                    <!-- Three-dot action menu -->
+                    <div class="dropdown">
+                        <button class="btn btn-link text-dark" onclick="toggleMenu('menu-@nurse.Id')">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </button>
+                        <div id="menu-@nurse.Id" class="dropdown-menu-custom">
+                            <a href="@Url.Action("EditPatient", "ControllerName", new { id = nurse.Id })">
+                                &#x270E; Update
+                            </a>
+                            <a href="@Url.Action("DeletePatient", "ControllerName", new { id = nurse.Id })" onclick="return confirm('Are you sure you want to delete this entry?')">
+                                &#x1F5D1; Delete
+                            </a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal for Staff Details -->
+<div class="modal fade" id="staffDetailsModal" tabindex="-1" role="dialog" aria-labelledby="staffDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staffDetailsModalLabel">Staff Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Full Name:</strong> <span id="staffFullName"></span></p>
+                <p><strong>Email:</strong> <span id="staffEmail"></span></p>
+                <p><strong>Role:</strong> <span id="staffRole"></span></p>
+                <p><strong>Mobile Number:</strong> <span id="staffMobileNumber"></span></p>
+                <p><strong>Status:</strong> <span id="staffStatus"></span></p>
+                <p><strong>Specialization/Department:</strong> <span id="staffSpecializationDepartment"></span></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    function toggleMenu(menuId) {
+        document.getElementById(menuId).classList.toggle('show');
+    }
+
+    window.onclick = function (event) {
+        if (!event.target.matches('.bi-three-dots-vertical')) {
+            var dropdowns = document.getElementsByClassName("dropdown-menu-custom");
+            for (var i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+
+    // Define the viewDetails function
+    function viewDetails(id) {
+        getStaffDetails(id);
+    }
+
+    function getStaffDetails(id) {
+        $.ajax({
+            url: '@Url.Action("GetStaffDetails", "Admin")',
+            type: 'GET',
+            success: function (data) {
+                // Fill modal with staff details
+                $('#staffFullName').text(data.FullName);
+                $('#staffEmail').text(data.Email);
+                $('#staffRole').text(data.Role);
+                $('#staffMobileNumber').text(data.MobileNumber);
+                $('#staffStatus').text(data.Status);
+                $('#staffSpecializationDepartment').text(data.Role === 'Doctor' ? data.Specialization : data.Department);
+
+                // Show the modal
+                $('#staffDetailsModal').modal('show');
+            },
+            error: function () {
+                alert('Error retrieving staff details. Please try again.');
+            }
+        });
+    }
+</script>

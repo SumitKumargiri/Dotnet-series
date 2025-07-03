@@ -1,0 +1,302 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\.Net Project\\crudoperationmvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|f:\\.net project\\crudoperationmvc\\crudoperationmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|solutionrelative:crudoperationmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\models\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|solutionrelative:crudoperationmvc\\models\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|solutionrelative:crudoperationmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|solutionrelative:crudoperationmvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|solutionrelative:crudoperationmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|solutionrelative:crudoperationmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|solutionrelative:crudoperationmvc\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|solutionrelative:crudoperationmvc\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|solutionrelative:crudoperationmvc\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|solutionrelative:crudoperationmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7A1694-3715-44F1-9CB3-64E67FC7CE34}|crudoperationmvc\\crudoperationmvc.csproj|solutionrelative:crudoperationmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 33,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "crudoperationmvc\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "crudoperationmvc\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T07:25:58.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Views\\Home\\Delete.cshtml",
+              "RelativeDocumentMoniker": "crudoperationmvc\\Views\\Home\\Delete.cshtml",
+              "ToolTip": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Views\\Home\\Delete.cshtml",
+              "RelativeToolTip": "crudoperationmvc\\Views\\Home\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:25:31.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "crudoperationmvc\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "crudoperationmvc\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:21:57.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "crudoperationmvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "crudoperationmvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T15:50:16.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Program.cs",
+              "RelativeDocumentMoniker": "crudoperationmvc\\Program.cs",
+              "ToolTip": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Program.cs",
+              "RelativeToolTip": "crudoperationmvc\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:23:30.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "crudoperationmvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "crudoperationmvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T15:31:22.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Views\\Home\\Add.cshtml",
+              "RelativeDocumentMoniker": "crudoperationmvc\\Views\\Home\\Add.cshtml",
+              "ToolTip": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Views\\Home\\Add.cshtml",
+              "RelativeToolTip": "crudoperationmvc\\Views\\Home\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T15:29:27.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "crudoperationmvc\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "crudoperationmvc\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAwwKgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:23:10.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\appsettings.json",
+              "RelativeDocumentMoniker": "crudoperationmvc\\appsettings.json",
+              "ToolTip": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\appsettings.json",
+              "RelativeToolTip": "crudoperationmvc\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T15:20:39.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.cs",
+              "DocumentMoniker": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Models\\Home.cs",
+              "RelativeDocumentMoniker": "crudoperationmvc\\Models\\Home.cs",
+              "ToolTip": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\Models\\Home.cs",
+              "RelativeToolTip": "crudoperationmvc\\Models\\Home.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:17:49.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "crudoperationmvc\\wwwroot\\css\\site.css",
+              "ToolTip": "F:\\.Net Project\\crudoperationmvc\\crudoperationmvc\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "crudoperationmvc\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAUwG4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-31T07:24:58.811Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

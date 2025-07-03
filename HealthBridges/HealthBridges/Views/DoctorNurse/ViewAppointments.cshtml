@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_DoctorNurseLayout.cshtml";
+}
+@* 
+@model IEnumerable<dynamic>  *@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Appointments</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container mt-4">
+        <h2 class="text-center">Appointments</h2>
+        <table class="table table-bordered table-striped mt-3">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Date of Birth</th>
+                    <th>Appointment Date</th>
+                    <th>Description</th>
+                    <th>Mobile Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var appointment in Model)
+                {
+                    <tr>
+                        <td>@appointment.FullName</td>
+                        <td>@appointment.Email</td>
+                        <td>@appointment.DateOfBirth?.ToString("yyyy-MM-dd")</td>
+                        <td>@appointment.AppointmentDate.ToString("yyyy-MM-dd")</td>
+                        <td>@appointment.Description</td>
+                        <td>@appointment.MobileNumber</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

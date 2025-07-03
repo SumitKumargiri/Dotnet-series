@@ -1,0 +1,204 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+
+/*+++++++++++  Home image +++++++++++++++++++++*/
+
+.custom-banner {
+    height: 700px;
+    background: linear-gradient(135deg, #17a2b8, #ffffff, #17a2b8);
+    overflow: hidden;
+    position: relative;
+}
+
+.homeimage {
+    object-fit: cover;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.single-line {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.custom-text {
+    font-size: 28px;
+}
+
+
+/*+++++++++++ Card ++++++++++++++*/
+
+.service-card {
+    overflow: hidden;
+    position: relative;
+    min-height: 420px;
+}
+
+    .service-card img {
+        transition: transform 0.3s;
+    }
+
+    .service-card:hover img {
+        transform: scale(1.1);
+    }
+
+.read-more {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.service-card:hover .read-more {
+    opacity: 1;
+}
+
+
+
+/*++++++++++++  Our Expert Teams +++++++++++++++*/
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+    .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+.social-icons a {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+    .social-icons a:hover {
+        color: #007bff;
+    }
+
+.card:hover .social-icons {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*+++++++++++++++ Login Page ++++++++++++++++++*/
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.login-box-container {
+    background-color: #ffffff;
+    padding: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-box-container {
+    position: relative;
+    width: 50%;
+}
+
+.img-fluid {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-blue-overlay {
+    /* background-color: rgba(128, 128, 128, 0.5);*/
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.form-control {
+    border-radius: 30px;
+    height: 45px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+    .form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+    }
+
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+    }
+
+    .image-box-container, .login-box-container {
+        width: 100%;
+    }
+}
+
+
+/*+++++++++++++ Signup page ++++++++++++++++++++++++*/
+
+
+.signup-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.signup-box-container {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.image-box-container {
+    position: relative;
+    /* background-color: #007bff; */
+}
+
+    .image-box-container img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .image-box-container .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        /*  background-color: rgba(0, 0, 255, 0.5);*/
+    }

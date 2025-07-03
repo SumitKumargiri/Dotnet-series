@@ -1,0 +1,138 @@
+﻿body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 20px;
+}
+
+    .sidebar a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        text-align: left;
+        font-size: 18px;
+    }
+
+        .sidebar a:hover {
+            background-color: #495057;
+        }
+
+.sidebar-link i {
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.header, .footer {
+    width: 100%;
+    position: fixed;
+    left: 250px;
+}
+
+.header {
+    top: 0;
+    height: 60px;
+    padding: 10px;
+}
+
+.footer {
+    bottom: 0;
+    height: 40px;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+
+/*+++++++++++ Admin Dashboard Style ++++++++++++++++*/
+
+.doctordiv {
+    width: 550px;
+    background-color: aquamarine;
+}
+
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding-top: 20px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    /*  z-index: 1030; */
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 1030;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.content {
+    margin-left: 250px;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.main-content {
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+    background-color: lightcyan;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon-moon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-2px);
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: translateY(-2px);
+}
+
+.dropdown-icon i {
+    font-size: 18px;
+    color: #333;
+    transform: translateY(-2px);
+    cursor: pointer;
+}

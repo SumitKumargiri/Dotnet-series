@@ -1,0 +1,318 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\.Net Project\\HealthBridges\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|F:\\.Net Project\\HealthBridges\\healthbridges\\views\\admin\\adminmanagepatients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|solutionrelative:healthbridges\\views\\admin\\adminmanagepatients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|f:\\.net project\\healthbridges\\healthbridges\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|solutionrelative:healthbridges\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|F:\\.Net Project\\HealthBridges\\healthbridges\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|solutionrelative:healthbridges\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|F:\\.Net Project\\HealthBridges\\healthbridges\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|solutionrelative:healthbridges\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|F:\\.Net Project\\HealthBridges\\healthbridges\\views\\doctornurse\\chatdoctornurse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|solutionrelative:healthbridges\\views\\doctornurse\\chatdoctornurse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|F:\\.Net Project\\HealthBridges\\healthbridges\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|solutionrelative:healthbridges\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|F:\\.Net Project\\HealthBridges\\healthbridges\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|solutionrelative:healthbridges\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|F:\\.Net Project\\HealthBridges\\healthbridges\\views\\admin\\staffmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|solutionrelative:healthbridges\\views\\admin\\staffmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|F:\\.Net Project\\HealthBridges\\healthbridges\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|solutionrelative:healthbridges\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|F:\\.Net Project\\HealthBridges\\healthbridges\\data\\healthbridgedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|solutionrelative:healthbridges\\data\\healthbridgedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|F:\\.Net Project\\HealthBridges\\healthbridges\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|solutionrelative:healthbridges\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|F:\\.Net Project\\HealthBridges\\healthbridges\\views\\admin\\getuserprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A25DD989-448D-49C0-9D31-02EF982587F2}|HealthBridges\\HealthBridges.csproj|solutionrelative:healthbridges\\views\\admin\\getuserprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 31,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "HealthBridges\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "HealthBridges\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T15:47:17.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeModel.cs",
+              "DocumentMoniker": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Models\\HomeModel.cs",
+              "RelativeDocumentMoniker": "HealthBridges\\Models\\HomeModel.cs",
+              "ToolTip": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Models\\HomeModel.cs",
+              "RelativeToolTip": "HealthBridges\\Models\\HomeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:47:09.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chatdoctornurse.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\DoctorNurse\\Chatdoctornurse.cshtml",
+              "RelativeDocumentMoniker": "HealthBridges\\Views\\DoctorNurse\\Chatdoctornurse.cshtml",
+              "ToolTip": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\DoctorNurse\\Chatdoctornurse.cshtml",
+              "RelativeToolTip": "HealthBridges\\Views\\DoctorNurse\\Chatdoctornurse.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T15:41:25.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "HealthBridges\\Views\\Home\\Login.cshtml",
+              "ToolTip": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "HealthBridges\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T04:37:25.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HealthBridges\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HealthBridges\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAowIgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T04:34:23.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminManagePatients.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\Admin\\AdminManagePatients.cshtml",
+              "RelativeDocumentMoniker": "HealthBridges\\Views\\Admin\\AdminManagePatients.cshtml",
+              "ToolTip": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\Admin\\AdminManagePatients.cshtml",
+              "RelativeToolTip": "HealthBridges\\Views\\Admin\\AdminManagePatients.cshtml",
+              "ViewState": "AQIAALcAAAAAAAAAAAAswNQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T17:25:22.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StaffManagement.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\Admin\\StaffManagement.cshtml",
+              "RelativeDocumentMoniker": "HealthBridges\\Views\\Admin\\StaffManagement.cshtml",
+              "ToolTip": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\Admin\\StaffManagement.cshtml",
+              "RelativeToolTip": "HealthBridges\\Views\\Admin\\StaffManagement.cshtml",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAQwK0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T16:57:09.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "HealthBridges\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "HealthBridges\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAAAJUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T16:29:35.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HealthBridgeDbContext.cs",
+              "DocumentMoniker": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Data\\HealthBridgeDbContext.cs",
+              "RelativeDocumentMoniker": "HealthBridges\\Data\\HealthBridgeDbContext.cs",
+              "ToolTip": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Data\\HealthBridgeDbContext.cs",
+              "RelativeToolTip": "HealthBridges\\Data\\HealthBridgeDbContext.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAswDMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:09:03.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Models\\User.cs",
+              "RelativeDocumentMoniker": "HealthBridges\\Models\\User.cs",
+              "ToolTip": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Models\\User.cs",
+              "RelativeToolTip": "HealthBridges\\Models\\User.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAmwJwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:08:48.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetUserProfile.cshtml",
+              "DocumentMoniker": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\Admin\\GetUserProfile.cshtml",
+              "RelativeDocumentMoniker": "HealthBridges\\Views\\Admin\\GetUserProfile.cshtml",
+              "ToolTip": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Views\\Admin\\GetUserProfile.cshtml",
+              "RelativeToolTip": "HealthBridges\\Views\\Admin\\GetUserProfile.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T16:08:28.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "HealthBridges\\Controllers\\AdminController.cs",
+              "ToolTip": "F:\\.Net Project\\HealthBridges\\HealthBridges\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "HealthBridges\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAowHUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:05:56.622Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

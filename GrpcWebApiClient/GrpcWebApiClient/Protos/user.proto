@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcWebApiClient";
+
+service UserService {
+    rpc GetUsers (EmptyRequest) returns (UserListResponse);
+}
+
+message EmptyRequest {}
+
+message User {
+    int32 id = 1;
+    string name = 2;
+    string email = 3;
+}
+
+message UserListResponse {
+    repeated User users = 1;
+}

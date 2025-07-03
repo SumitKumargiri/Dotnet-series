@@ -1,0 +1,110 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styling */
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table row and cell styling */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Message when no records are found */
+tbody tr td[colspan="5"] {
+    text-align: center;
+    color: #999;
+}
+
+/* Button styling */
+button {
+    padding: 6px 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+    /* Button hover effects */
+    button:hover {
+        background-color: #45a049;
+    }
+
+    /* Link inside buttons */
+    button a {
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Add button with custom color */
+    button.add-btn {
+        background-color: #008CBA;
+    }
+
+        button.add-btn:hover {
+            background-color: #007B9F;
+        }
+
+    /* Edit button with custom color */
+    button.edit-btn {
+        background-color: #FF9800;
+    }
+
+        button.edit-btn:hover {
+            background-color: #E68900;
+        }
+
+    /* Delete button with custom color */
+    button.delete-btn {
+        background-color: #f44336;
+    }
+
+        button.delete-btn:hover {
+            background-color: #e41e23;
+        }

@@ -1,0 +1,216 @@
+﻿@{
+    var FullName = Context.Session.GetString("FullName") ?? "Guest";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Admin Dashboard</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/admindashboard.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="sidebar text-black text-center bg-primary border-2 shadow-sm">
+        @* <img src="~/Images/ChiefMedicalOfficer.jpg" alt="Alternate Text" class="img-fluid mb-2" style="width: 60%; height: 150px; object-fit: cover;" /> *@
+
+        <div style="position: relative; display: inline-block;">
+            <img id="adminprofileImage" src="~/Images/patientimage.png" alt="Profile Image" style="width: 150px; height: 150px; border-radius: 10px; object-fit: cover; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);" />
+            <i class="bi bi-pencil-square" onclick="document.getElementById('imageUpload').click()" style="position: absolute; top: 10px; right: 10px; font-size: 24px; color: #ffffff; cursor: pointer; background-color: #007bff; border-radius: 50%; padding: 4px;"></i>
+            <input type="file" id="imageUpload" style="display: none;" onchange="uploadImage()" />
+        </div>
+
+        @if (!string.IsNullOrEmpty(FullName))
+        {
+            <h4 class="text-center text-white mb-4">@FullName</h4>
+        }
+
+        <a href="@Url.Action("AdminDashboard", "Admin")" class="sidebar-link text-white py-2">
+            <i class="bi bi-toggles"></i> Dashboard
+        </a>
+
+        <a href="@Url.Action("StaffManagement", "Admin")" class="sidebar-link text-white py-2">
+            <i class="bi bi-people"></i> Staff
+        </a>
+
+        <a href="@Url.Action("AdminManagePatients", "Admin")" class="sidebar-link text-white py-2">
+            <i class="bi bi-people"></i> Patient
+        </a>
+
+        <a href="@Url.Action("", "DoctorNurse")" class="sidebar-link text-white py-2">
+            <i class="bi bi-file-earmark-text"></i> Reports
+        </a>
+
+        <a href="@Url.Action("Chat", "Admin")" class="sidebar-link text-white py-2">
+            <i class="bi bi-chat-left-text-fill"></i> Chat
+        </a>
+
+        <a href="@Url.Action("Event", "Admin")" class="sidebar-link text-white py-2">
+            <i class="bi bi-calendar-event-fill"></i> Event
+        </a>
+    </div>
+
+    <div class="content">
+        <header class="header bg-white border-bottom shadow-sm p-3">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+
+               @*  +++++++++++++++++++ Left-aligned elements ++++++++++++++++++++++++ *@
+                <div class="d-flex align-items-center">
+                    <img src="~/Images/weblogo.png" alt="Logo" style="width: 140px; height: 40px; margin-right: 20px;">
+                    @* <h5 class="mb-0" style="margin-top: 5px; margin-right: 10px;">Welcome, @FullName</h5> *@
+                </div>
+
+                @* +++++++++++ Right-aligned elements +++++++++++++++++++++++ *@
+                <div class="d-flex align-items-center ms-auto">
+                    <div class="icon-moon d-flex justify-content-center align-items-center me-2">
+                        <i class="bi bi-moon-fill text-white"></i>
+                    </div>
+
+                    <img src="~/Images/ChiefMedicalOfficer.jpg" alt="Profile Image" class="profile-img me-2">
+
+                    <div class="dropdown">
+                        <div class="dropdown-icon d-flex align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-caret-down-fill"></i>
+                        </div>
+                        <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="@Url.Action("GetUserProfile", "Admin")">
+                                    <i class="bi bi-pencil-square me-2"></i> Edit Profile
+                                </a>
+                            </li>
+                            <li>
+                                @* <a class="dropdown-item d-flex align-items-center" href="@Url.Action("ResetPassword", "Admin")">
+                                    <i class="bi bi-key me-2"></i> Reset Password
+                                </a> *@
+
+                                <a href="#resetPasswordModal" data-bs-toggle="modal" class="dropdown-item d-flex align-items-center">
+                                    <i class="bi bi-key me-2"></i> Reset Password
+                                </a>
+
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <i class="bi bi-box-arrow-right me-2"></i> Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <main role="main" class="main-content">
+            @RenderBody()
+        </main>
+
+        <footer class="footer text-center">
+            <div class="container">
+                <span>&copy; 2024 - HealthBridge Admin</span>
+            </div>
+        </footer>
+    </div>
+
+   @* ++++++++++++++++++++++++++++++++++++++  Reset password ++++++++++++++++++++++++++++++++++++++++ *@
+
+    <div class="modal fade" id="resetPasswordModal" tabindex="-1" aria-labelledby="resetPasswordModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resetPasswordModalLabel">Reset Password</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="resetPasswordForm" method="post" action="@Url.Action("ResetPassword", "Admin")">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" id="hiddenFullName" name="FullName" />
+
+                        <div class="mb-3">
+                            <label for="oldPassword" class="form-label">Old Password</label>
+                            <input type="password" class="form-control" id="oldPassword" name="OldPassword" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="newPassword" class="form-label">New Password</label>
+                            <input type="password" class="form-control" id="newPassword" name="NewPassword" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirmNewPassword" class="form-label">Confirm New Password</label>
+                            <input type="password" class="form-control" id="confirmNewPassword" name="ConfirmNewPassword" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
+
+    <script>
+        function loadProfileImage() {
+            var profileImageUrl = localStorage.getItem("ProfileImage");
+            if (profileImageUrl) {
+                document.getElementById("adminprofileImage").src = profileImageUrl;
+            }
+        }
+
+        window.onload = loadProfileImage;
+
+
+
+        function uploadImage() {
+            var userId = localStorage.getItem("UserId");
+            var fileInput = document.getElementById("imageUpload");
+
+            var formData = new FormData();
+            formData.append("adminprofileImage", fileInput.files[0]);
+            formData.append("userId", userId);
+
+            $.ajax({
+                url: '@Url.Action("AdminUploadProfileImage", "Admin")',
+                type: 'POST',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    if (response.success) {
+                        localStorage.setItem("ProfileImage", response.imageUrl);
+                        document.getElementById("adminprofileImage").src = response.imageUrl;
+                        alert("Image uploaded successfully!");
+                    } else {
+                        alert("Image upload failed. Please try again.");
+                    }
+                },
+                error: function () {
+                    alert("An error occurred while uploading the image.");
+                }
+            });
+        }
+
+
+        window.onload = function () {
+            loadProfileImage();
+
+            var fullName = localStorage.getItem("FullName");
+            if (fullName) {
+                document.getElementById("hiddenFullName").value = fullName;
+            }
+        };
+
+    </script>
+</body>
+</html>

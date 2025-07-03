@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "I/Hfqn0G57Yruf/NL06plyRyqNIEwHsQ48bG/el+7Aw=",
+  "Source": "GrpcWebApiClient",
+  "BasePath": "_content/GrpcWebApiClient",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

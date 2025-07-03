@@ -1,0 +1,445 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\.Net Project\\JobSeekingApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|f:\\.net project\\jobseekingapplication\\jobseekingapplication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\model\\jobseeker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\model\\jobseeker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\services\\jobseekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\services\\jobseekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\controllers\\jobseekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\controllers\\jobseekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\interface\\ijobseeker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\interface\\ijobseeker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\interface\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\interface\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\interface\\iadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\interface\\iadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\model\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\model\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\model\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\model\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\interface\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\interface\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|F:\\.Net Project\\JobSeekingApplication\\jobseekingapplication\\model\\resultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AE0ECE-4670-4299-8727-8FEA44AEA555}|JobSeekingApplication\\JobSeekingApplication.csproj|solutionrelative:jobseekingapplication\\model\\resultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 38,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\appsettings.json",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\appsettings.json",
+              "RelativeToolTip": "JobSeekingApplication\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-28T11:54:16.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Controllers\\AdminController.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAawCkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:37:05.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Services\\AdminService.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Services\\AdminService.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Services\\AdminService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwDIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:07:10.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAdmin.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Interface\\IAdmin.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Interface\\IAdmin.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Interface\\IAdmin.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Interface\\IAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:05:54.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Model\\Admin.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Model\\Admin.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Model\\Admin.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Model\\Admin.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA/wBcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:57:56.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JobSeekerService.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Services\\JobSeekerService.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Services\\JobSeekerService.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Services\\JobSeekerService.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Services\\JobSeekerService.cs",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAkwLMAAACVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:25:45.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JobSeekerController.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Controllers\\JobSeekerController.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Controllers\\JobSeekerController.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Controllers\\JobSeekerController.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Controllers\\JobSeekerController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:58:09.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ijobseeker.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Interface\\Ijobseeker.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Interface\\Ijobseeker.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Interface\\Ijobseeker.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Interface\\Ijobseeker.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:23:49.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Jobseeker.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Model\\Jobseeker.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Model\\Jobseeker.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Model\\Jobseeker.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Model\\Jobseeker.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAUwDYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:19:25.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuth.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Interface\\IAuth.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Interface\\IAuth.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Interface\\IAuth.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Interface\\IAuth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:55:52.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowHQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T08:59:42.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Model\\Auth.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Model\\Auth.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Model\\Auth.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Model\\Auth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:19:29.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Services\\AuthService.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Services\\AuthService.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Services\\AuthService.cs",
+              "ViewState": "AQIAAH4BAAAAAAAAAAAmwJUBAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:14:58.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Services\\EmployeeService.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Services\\EmployeeService.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAgwGwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T05:40:49.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Controllers\\EmployeeController.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T05:40:23.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEmployee.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Interface\\IEmployee.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Interface\\IEmployee.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Interface\\IEmployee.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Interface\\IEmployee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T05:39:53.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Model\\Employee.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Model\\Employee.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Model\\Employee.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwBIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T05:35:59.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Program.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Program.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Program.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T05:04:40.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ResultModel.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Model\\ResultModel.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Model\\ResultModel.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Model\\ResultModel.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Model\\ResultModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T04:50:40.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Model\\Constants.cs",
+              "RelativeDocumentMoniker": "JobSeekingApplication\\Model\\Constants.cs",
+              "ToolTip": "F:\\.Net Project\\JobSeekingApplication\\JobSeekingApplication\\Model\\Constants.cs",
+              "RelativeToolTip": "JobSeekingApplication\\Model\\Constants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T04:50:33.753Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
