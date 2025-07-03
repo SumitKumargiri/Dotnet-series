@@ -50,7 +50,7 @@ Dotnet-Series/
 
 ### Prerequisites
 
-- [.NET 7+ SDK](https://dotnet.microsoft.com/download)
+- [.NET 8+ SDK](https://dotnet.microsoft.com/download)
 - Visual Studio / VS Code
 - SQL Server / MySQL
 - Redis, RabbitMQ (for relevant modules)
